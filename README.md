@@ -19,3 +19,6 @@ uv pip install -e .
 setx OPENAI_API_KEY your_key
 word-translator input.docx --source-lang zh --target-lang en
 ```
+
+## bug
+目前还有翻译不完全的bug, 有些段落, 句子还是原始语言, 没有被翻译, 需要添加审核机制, 确保所有句子都被正确翻译
