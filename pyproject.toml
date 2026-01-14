@@ -1,0 +1,15 @@
+[project]
+name = "word-translator"
+version = "0.1.0"
+description = "DOCX translator preserving formatting using tagged runs (OpenAI)"
+requires-python = ">=3.10"
+dependencies = [
+  "python-docx>=1.1.0",
+  "openai>=1.0.0"
+]
+
+[project.scripts]
+word-translator = "word_translator.cli:main"
+
+[tool.uv]
+managed = true
