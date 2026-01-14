@@ -8,14 +8,14 @@ https://github.com/astral-sh/uv
 
 Then:
 
-```bash
+```shell
 uv venv
-source .venv/bin/activate
+.venv/Scripts/activate
 uv pip install -e .
 ```
 
 ## Usage
-```bash
-export OPENAI_API_KEY=your_key
+```shell
+setx OPENAI_API_KEY your_key
 word-translator input.docx --source-lang zh --target-lang en
 ```
